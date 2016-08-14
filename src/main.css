@@ -1,0 +1,910 @@
+html
+{
+	padding:0px;
+	margin:0px;
+}
+body 
+{
+	height: 50000px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	overflow-x:hidden; 
+}
+.back 
+{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #686868;
+}
+.background_first
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	background: #232626;
+	background-size: cover;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+}
+.main_logo
+{
+	width: 700px;
+	height: 180px;
+	max-width: 99%;
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-left: -350px;
+}
+.college_name
+{
+	color: #D9FBF6;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 18px;
+	width: 100%;
+	display: none;
+	left: 5px;
+	visibility: hidden;
+	top: 60%;
+}
+.dates
+{
+	color: #D9FBF6;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 20px;
+	width: 20%;
+	display: none;
+	position: fixed;
+	right: 5px;
+	top: 60%;
+}
+.scroll_1
+{
+	position: absolute;
+	bottom: -16px;
+	left: 50%;
+	margin-left: -40px;
+	color: #CCC;
+	text-align: center;
+	font-size: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    cursor: pointer;
+	background: rgba(32,32,32,.5);
+    
+}
+
+#font_down
+{
+	padding-top: 20px;
+}
+
+.content_1
+{
+	font-family: 'Dynalight', cursive;
+	color: #FFF;
+	font-size: 60px;
+	position: fixed;
+	top: 10%;
+	opacity: 0;
+	left: 20%;
+}
+
+
+
+.back2
+{
+	width: 100%;
+	height: 100%;
+	background: url('images/sometime.jpg');
+	background-size: cover;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+
+}
+
+.ball 
+{
+	width: 0px;
+	height: 0px;
+	border-radius: 400px;
+	background: #171F2A;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.square
+{
+	height: 100px;
+	width: 0px;
+	position: fixed;
+	top: 50%;
+	margin-top: -50px;
+	left: 50%;
+	background: #171F2A;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+}
+.the
+{
+	font-family: 'Dynalight', cursive;
+	color: #FFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	font-size: 30px;
+	margin-top: -100px;
+	margin-left: -4em;
+}
+.line1
+{
+	width: 3em;
+	height: 2px;
+	background: #FFF;
+	display: inline-block;
+	margin-bottom: .2em;
+}
+.butterfly_word
+{
+	color: #FFF;
+	font-family: "Lucida Console","Lucida Sans Typewriter",monaco,"Bitstream Vera Sans Mono",monospace;
+	font-size: 60px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -2.2em;
+	margin-top: -.5em;
+}
+.sting
+{
+	font-family: 'Dynalight', cursive;
+	color: #FFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	font-size: 60px;
+	margin-top: 30px;
+	margin-left: -4em;
+
+}
+.words {
+	opacity: 0;
+}
+.butterfly
+{
+	width: 200px;
+	height: 200px;
+	opacity: .1;
+	background: url('images/butterfly.png');
+	background-size: cover;
+	position: fixed;
+	top: 110%;
+	left: 50%;
+	margin-left: -100px;
+}
+.amaze_holder
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.amaze
+{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .5);
+	background: #848484;
+	bottom: 15px;
+	right: 15px;
+	margin-left: -40px;
+	color: #FFF;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 2;
+	transition: .3s ease;
+	z-index: 999;
+
+}
+
+.amaze1
+{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	background: #848484;
+	bottom: 15px;
+	right: 15px;
+	margin-left: -40px;
+	color: #FFF;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 2;
+	transition: .3s ease;
+	z-index: 998;
+
+}
+#paddingTop
+{
+    padding-top: 15px;
+}
+.amaze:hover
+{
+	background: #545454;
+}
+#amaze_gallery
+{
+    z-index: 998;
+    background: #C1C621;
+    
+}
+#amaze_events
+{
+    z-index: 997;
+    background: #E6006A;
+}
+
+#amaze_spotlight
+{
+    z-index: 996;
+    background: #720397;
+    
+}
+#amaze_sponsor
+{
+    z-index: 996;
+    background: #12930c;
+}
+
+#amaze_about
+{
+    z-index: 995;
+    background: #B42543;
+}
+#amaze_contact
+{
+    z-index: 994;
+    background: #5F40CE;
+}
+.sugg
+{
+    position: absolute;
+    top: 20px;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    left: -150px;
+    font-size: 20px;
+    opacity: 0;
+}
+.floater_back
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3001;
+    background: rgba(0,0,0,.5);
+    display: none;
+}
+.floater
+{
+    z-index: 3002;
+    position: fixed;
+    width: 90%;
+    left: 5%;
+    height: 90%;
+    top: 5%;
+    color: #FFF;
+    border-radius: 10px;
+    display: none;
+    overflow: hidden;
+}
+#floater_event
+{
+    background: #c52a4a;
+}
+#floater_gallery
+{
+    background: #C1C621;
+}
+
+#floater_spotlight
+{
+    background: #720397;
+}
+#floater_sponsor
+{
+    background: #12930c;
+}
+
+#floater_about
+{
+    background: #B42543;
+}
+#floater_contact
+{
+    background: #5F40CE;
+}
+.superb1
+{
+    float: left;
+    color: #333;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    position: relative;
+}
+.floater_title
+{
+    
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+.floater_close
+{
+    color: #FFF;
+    font-size: 40px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+}
+.floater_content
+{
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width:100%;
+    height: 50%;
+    overflow: scroll;
+    padding-bottom: 20%;
+    background: #FFF;
+    overflow: scroll;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .5);
+    color: #5e5e5e;
+    
+    
+}
+.floater_dates
+{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    
+}
+.day_nums
+{
+    width: 100%;
+    margin-top: 20px;
+    height: 80px;
+    background: #FFF;
+    border-radius:10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    border: thin;
+    transition: .5s ease;
+    font-family: 'Luckiest Guy', cursive;
+}
+.event_button
+{
+    background: #FFF;
+    border-radius:5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border: thin;
+    transition: .5s ease;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 10px;
+    float: left;
+}
+.day_nums:hover
+{
+    border-radius: :50px;
+    background: #CCC;
+}
+.event_button:hover
+{
+    border-radius: :20px;
+    background: #CCC;
+}
+#day1
+{
+    color: #C52A4A;
+}
+.hold_events
+{
+    max-width: 40%;
+    width: 850px;
+    height: 350px;
+    float: left;
+    background: #FFF;
+    border-radius: 20px;
+    display: none;
+    padding-bottom: 10%;
+}
+#day1_hold
+{
+    display: block;
+}
+.event_details
+{
+    position: relative;
+    float: left;
+    width:auto;
+    padding: 20px;
+    display: none;
+    height: 300px;
+    overflow-y: scroll;
+    border-bottom: dotted;
+    border-color:#CCC;
+}
+.event_button_holder
+{
+    position: relative;
+    float: left;
+    width:auto;
+    height: 300px;
+    overflow: auto;
+}
+button:focus {outline:0;}
+
+.amaze_back
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    display: none;
+}
+.first_amaze
+{
+	width: 30px;
+	height: 3px;
+	border-radius: 30px;
+	background: #FFF;
+	position: absolute;
+	top: 22px;
+	left: 15px;
+    z-index: 100;
+}
+.second_amaze
+{
+	width: 30px;
+	height: 3px;
+	border-radius: 30px;
+	background: #FFF;
+	position: absolute;
+	top: 30px;
+	left: 15px;
+    z-index: 100;
+}
+.third_amaze
+{
+	width: 30px;
+	height: 3px;
+	border-radius: 30px;
+	background: #FFF;
+	position: absolute;
+	top: 38px;
+	left: 15px;
+    z-index: 100;
+}
+
+.city
+{
+    position: fixed;
+    bottom: -500px;
+    left: 0px;
+    height: 338px;
+    width: 300%;
+    z-index: 19;
+    background: url('images/city.png');
+}
+.launch1
+{
+    width: 700px;
+    height: 300px;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    z-index: 17;
+    margin-left: -200px;
+    background: url('images/launch.png');
+    background-size: cover;
+    display: none;
+}
+
+.rocket
+{
+    width: 128px;
+    height: 224px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 18;
+    left: 45%;
+    background: url('images/rocket.png');
+    background-size:cover;
+    display: none;
+}
+
+.main_butterfly
+{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    bottom: 100px;
+    left: 48%;
+    background: url('images/butterfly.png');
+    background-size: cover;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.explode
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #FFF;
+    position: fixed;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+	border-radius: 800px;
+}
+.events_content
+{
+    position: fixed;
+    top: 10%;
+    left:50%;
+    color: #E6006A;
+}
+.events_title
+{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    position: absolute;
+    top:0;
+    width: 20em;
+    left: -8em;
+}
+.extra_superb
+{
+    padding: 10px;
+    border: 2px solid;
+    background: transparent;
+    border-color: #E6006A;
+    color: #E6006A;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s ease;
+    position: relative;
+    left: -10px;
+    top:100px;
+    float: left;
+    transform: rotate(90deg);
+    
+}
+.extra_superb:hover
+{
+    
+    background: #E6006A;
+    color: #FFF;
+}
+.helicopter
+{
+    width: 96px;
+    height: 76px;
+    position: fixed;
+    bottom: 220px;
+    background: url('images/helicopter.png');
+    background-size: cover;
+    display: none;
+}
+.superb_holder
+{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 820px;
+    z-index: 20;
+    margin-left: -399px;
+    height: 250px;
+}
+.superb
+{
+    height: 250px;
+    width: 180px;
+    float: left;
+    position: relative;
+    background: #ccc;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+    cursor: pointer; 
+    transition: .5s ease;
+    border-radius: 10px;
+    z-index: 1000;
+}
+#superb1
+{
+    background: url('images/smokie.png');
+    background-size: cover;
+    
+}
+#superb2
+{
+    background: url('images/choreo.png');
+    background-size: cover;
+    
+}
+#superb3
+{
+    background: url('images/lagori.png');
+    background-size: cover;
+    
+}
+.superb_inner
+{
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    color: #f0e316;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+.superb:hover .superb_inner
+{
+    
+    background: rgba(0,0,0,.8);
+    top:0px;
+}
+
+.superb_inner:hover
+{
+    
+    background: rgba(0,0,0,.8);
+    top:0px;
+}
+
+.widther
+{
+    background: #067F4C;
+    position: fixed;
+    height: 10px;
+    top: 50%;
+    left: -5%;
+    
+}
+
+.back_button2
+{
+    font-size: 40px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    
+}
+.explode2
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    margin-left: -40px;
+    position: fixed;
+    left: 50%;
+    bottom: -100px;
+    background: #d1f4e5;
+	border-radius: 800px;
+}
+
+.aeroplane
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 64%;
+    left: 46%;
+    background: url('images/aeroplane.png');
+    background-size: cover;
+    
+}
+
+#aero2
+{
+    top: 20%;
+}
+.just_events
+{
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-left: -2em;
+    color: #067F4C;
+    z-index: 201;
+}
+.just_button
+{
+    background: transparent;
+    border-radius:5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    color: #067F4C;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    border: thin;
+    transition: .5s ease;
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 170px;
+}
+.just_button:hover
+{
+    border-radius: 10px;
+    background: rgba(2,5,5,.1)
+}
+.first
+{
+    color: #FFF;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    font-family: 'Dynalight', cursive;
+    font-size: 25px;
+    z-index: 99;
+    text-align: center;
+    
+}
+.scroller
+{
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+    overflow: scroll;
+    border-bottom: 2px dashed;
+    border-color: #CCC;
+}
+.giframe
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+}
+.cover_screen1
+{
+    position: fixed;
+    height: 100%;
+    width: 50000px;
+    background: #0B2B40;
+    top: 0px;
+    left: -50000%;
+    z-index: 200;
+}
+
+.cover_screen2
+{
+    position: fixed;
+    height: 100%;
+    width: 50000px;
+    background: #0B2B40;
+    top: 0px;
+    left: 110%;
+    z-index: 200;
+}
+.main_logo2
+{
+	width: 700px;
+	height: 180px;
+	max-width: 99%;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -350px;
+    z-index: 201;
+}
+.last_button_holder
+{
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 48%;
+    left: 50%;
+    margin-left: -200px;
+    z-index: 201;
+}
+.last_button
+{
+    background: #FFF;
+    border-radius:5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    color: #0B2B40;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border: thin;
+    transition: .5s ease;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 10px;
+    float: left;
+}
+.last_button:hover
+{
+    background: rgba(255,255,255,.7);
+    border-radius: 5px;
+}
+.footer
+{
+    position: fixed;
+    font-family: 'Dynalight', cursive;
+    bottom: 2px;
+    left: 50%;
+    width: 500px;
+    text-align: center;
+    margin-left: -250px;
+    font-size: 19px;
+    color: #FFF;
+    z-index: 503;
+}
+.linked
+{
+    color: #CCC;
+    transition: .5s ease;
+    text-decoration: underline;
+    
+}
+.linked:hover
+{
+    color: #B5B5B5;
+}
+.arrowup
+{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+

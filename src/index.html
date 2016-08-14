@@ -1,0 +1,1406 @@
+
+<!-- plingme -->
+
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sanskriti 15</title>
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+<meta property="og:image" content="images/forog.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 600) {
+    window.location = "mobile.html";
+  }
+  //-->
+</script>
+<meta name="description" content="Sanskriti, the arts fest of Mar Athanasius College of Engineering, Kothamangalam"/>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Dynalight' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+    <style>
+.loaderhold
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    z-index: 9999999999;
+}
+.loader-box{
+	width:200px;
+	height:200px;
+	margin:auto;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	background-color:transparent;
+	margin-top:100px;
+	text-align:center;
+}
+
+.lable{
+	height:30px;
+	line-height:30px;
+	padding-top:20px;
+	font-family: 'Luckiest Guy', cursive;
+	color:#404040;
+	font-size:20px;
+}
+
+.loader{
+	width:90px;
+	height:90px;
+	background-color:transparent;
+	overflow:hidden;
+	display:block;
+	-moz-border-radius:100%;
+	-webkit-border-radius:100%;
+	border-radius:100%;
+	border:3px solid #5dba9d;
+	position:relative;
+	margin:15px auto;
+  z-index:1;
+}
+
+.element-animation{
+  animation:animationFrames linear 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: animationFrames linear 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+  -moz-animation: animationFrames linear 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-fill-mode:forwards; /*FF 5+*/
+  -o-animation: animationFrames linear 3s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-fill-mode:forwards; /*Not implemented yet*/
+  -ms-animation: animationFrames linear 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-fill-mode:forwards; /*IE 10+*/
+}
+
+.road{
+	width:100%;
+	height:3px;
+	background-color:#5dba9d;
+	position:absolute;
+	bottom:5px;
+	z-index:1;
+}
+
+@keyframes animationFrames{
+  0% {
+    transform: translate(-1160px,15px)  ;
+  }
+  100% {
+    transform: translate(0px,15px)  ;
+  }
+}
+
+@-moz-keyframes animationFrames{
+  0% {
+    transform: translate(-1160px,15px)  ;
+  }
+  100% {
+    transform: translate(0px,15px)  ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    transform: translate(-1160px,15px)  ;
+  }
+  100% {
+    transform: translate(0px,15px)  ;
+  }
+}
+
+@-o-keyframes animationFrames {
+  0% {
+    transform: translate(-1160px,15px)  ;
+  }
+  100% {
+    transform: translate(-0px,15px)  ;
+  }
+}
+
+@-ms-keyframes animationFrames {
+  0% {
+    transform: translate(-1160px,15px)  ;
+  }
+  100% {
+    transform: translate(0px,15px)  ;
+  }
+}
+    </style>
+
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "mobile.php";
+  }
+  //-->
+</script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jarallax-0.2.4.min.js"></script>
+<script src="js/main.js"></script>
+
+</head>
+
+ <body onload="init()">
+<div class="loaderhold">
+    <div class="loader-box">
+	<div class="lable">Loading</div>
+	<div class="loader">
+        <div class="element-animation">
+        <img src="https://dl.dropboxusercontent.com/u/35259193/loader.png" width="1180" height="70";>
+        </div>
+        <div class="road"></div>
+	</div>
+    </div>
+</div>
+     <div class="first">
+         Mar Athanasius College of Engineering, Kothamangalam |2015 March 19 20 21
+     </div>
+     
+     
+ 	<div class="back"></div>
+ 	<div class="background_first" id="container">
+    <div class="college_name">Mar Athanasius College of Engineering<br/>Kothamangalam</div>
+    <div class="dates"><div style="text-align:right;">16 17 18 March<br/>2015</div></div>
+    <div class="main_logo"><div><img src="images/logo1.png" style="width:100%;"></div></div>
+ 			<div class="scroll_1"><div class="icon-arrow-down2" id="font_down"></div></div>
+ 	</div>
+
+    <div class="amaze_holder">
+      <div class="amaze">
+        <div class="first_amaze"></div>
+        <div class="second_amaze"></div>
+        <div class="third_amaze"></div>
+      </div>
+        
+      <div class="amaze1 amaze_gallery2" id="amaze_gallery">
+          <div  id="paddingTop"><span class="icon-image"></span></div>
+          <div class="sugg">Gallery</div>
+        </div>
+      <div class="amaze1" id="amaze_events">
+          <div  id="paddingTop"><span class="icon-list"></span></div>
+          <div class="sugg">Events</div>
+        </div>
+      <div class="amaze1 amaze_spotlight2" id="amaze_spotlight">
+          <div  id="paddingTop"><span class="icon-heart"></span></div>
+          <div class="sugg">Superb Events</div>
+        </div>
+      <div class="amaze1 amaze_sponsor2" id="amaze_sponsor">
+          <div  id="paddingTop"><span class="icon-smiley"></span></div>
+          <div class="sugg">Sponsors :)</div>
+        </div>
+      <div class="amaze1 amaze_about2" id="amaze_about">
+          <div  id="paddingTop"><span class="icon-home"></span></div>
+          <div class="sugg">About</div>
+        </div>
+      <div class="amaze1 amaze_contact2" id="amaze_contact">
+          <div  id="paddingTop"><span class="icon-user"></span></div>
+          <div class="sugg">Meet us</div>
+        </div>
+    </div>
+     
+     <div class="amaze_back"></div>
+    <div class="floater_back"></div>
+    <div class="floater" id="floater_event">
+         <div class="floater_title">Those <span style="font-size:60px;">events</span> to rock you. </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+        <div class="floater_content">
+            <div class="floater_dates">
+                <button class="day_nums" id="day1">19 March 2015</button>
+                <button class="day_nums" id="day2">20 March 2015</button>
+                <button class="day_nums" id="day3">21 March 2015</button>
+            </div>
+            
+            <div class="hold_events" id="day1_hold">
+                <h1 style="font-family: 'Dynalight', cursive; color:#C52A4A; padding:10px;">The Day just for <span style='font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;'>MACE</span> ians</h1>
+                <div class="event_button_holder" id="day1_hold_button">
+                    <button class="event_button" id="a1005" manval="day1_hold">INTRA CHOREO</button><button class="event_button" id="a1004" manval="day1_hold">ADAPTUNE</button><button class="event_button" id="a1007" manval="day1_hold">MR N MISS FRESHER (FINAL)</button><button class="event_button" id="a1006" manval="day1_hold">STEP N SYNCHRO</button><button class="event_button" id="a1009" manval="day1_hold">DJ NIGHT</button><button class="event_button" id="a1010" manval="day1_hold">DUET SINGING</button><button class="event_button" id="a1011" manval="day1_hold">OPPANA</button><button class="event_button" id="a1013" manval="day1_hold">VOICE OF MACE</button><button class="event_button" id="a1014" manval="day1_hold">FISH MARKET DEBATE</button><button class="event_button" id="a1015" manval="day1_hold">EXTEMPORE(ENG)</button><button class="event_button" id="a1016" manval="day1_hold">EXTEMPORE(MAL)</button><button class="event_button" id="a1017" manval="day1_hold">MARKETING</button><button class="event_button" id="a1018" manval="day1_hold">JAM(ENG)</button><button class="event_button" id="a1019" manval="day1_hold">JAM(MAL)</button><button class="event_button" id="a1020" manval="day1_hold">MOCKPRESS</button><button class="event_button" id="a1022" manval="day1_hold">RECITATION(ENG)</button><button class="event_button" id="a1023" manval="day1_hold">RECITATION(MAL)</button><button class="event_button" id="a1024" manval="day1_hold">MEHANDI</button><button class="event_button" id="a1025" manval="day1_hold">RJ COMPETITION</button><button class="event_button" id="a1028" manval="day1_hold">NOSTALGIA</button><button class="event_button" id="a1057" manval="day1_hold">NAIL ART</button><button class="event_button" id="a1008" manval="day1_hold">MELODY EVENING</button><button class="event_button" id="a1021" manval="day1_hold">NIL</button><button class="event_button" id="a1012" manval="day1_hold">THIRUVATHIRA</button>                </div>
+                <div class="event_details" id="a1005_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Dancing was, is and will be the most exotic of all art forms that our race has developed. The sensuous sways of a perfectly sliced human figure are one of those pleasures any living being cannot resist.<br />
+<br />
+Sanskriti 2015 pays tribute to this divine art form through its biggest event, Choreography.<br />
+<br />
+A form of expression in its most dignified stature, dancing speaks a language right from the heart. The cultural heritage of Sanskriti is written in scores of these, so be there, and experience the enigma...<br />
+
+                    <h3>Rules</h3>Event exclusively for MACEians!!<br />
+<br />
+Please contact the event heads for other details...
+                    <h3>Contact</h3>ASHWIN MATHEW<br />
+9497753261<br />
+<br />
+JIMMY JACOB<br />
+9745631312<br />
+<br />
+RESHMA R<br />
+9249762662<br />
+<br />
+</div><div class="event_details" id="a1004_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> So you think you can dance? Face a set of fast number songs on the spot, use the properties given and dance to the beats and then we will believe you.<br />
+<br />
+Judging Criteria:<br />
+1.	Choreography & Creativity.<br />
+2.	Synchronization to music.<br />
+3.	Energy and expressions.<br />
+4.	Maximum utilization of the stage.
+                    <h3>Rules</h3>1.	Song duration will be three minutes.<br />
+2.	Song will be played randomly by the organizers.<br />
+3.	Costumes should be appropriate for general audience. Indecent exposure or vulgarity will not be permitted.<br />
+4.	Judges decisions are final.
+                    <h3>Contact</h3>VYSHAKH K<br />
+9946677810<br />
+<br />
+ANEENA SAINU<br />
+9633286122<br />
+<br />
+<br />
+</div><div class="event_details" id="a1007_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Those moments when your heart beats before you make that risky leap. Where you challenge your limits. Where you stop merely existing and start living, that's when you know your true worth. That's when you meet the real you.<br />
+Mr. And Miss Fresher... UNLEASHING THE ROYALTY IN YOU. ...<br />
+The toughest 'PERSONALITY-TEST'  in Kerala. Do you have what it takes to get MACE's ever-rolling 'Crown' .
+                    <h3>Rules</h3>1.This is a single day event. (We wont be able to bear your stupidity any longer)<br />
+2.You and only you are responsible for your actions or words. Be prepared for the consequences.<br />
+3.You are allowed to cry. (Not on our shoulders.Tissue 'will not' be provided)<br />
+4.Judges decision will be final.<br />
+5.Foul language is a No-No. However the esteemed audience may use it.<br />
+6.M.A.C.E, its students, Sanskriti organisers or staff will not be responsible for any physical or mental trauma you may endure.<br />
+7.You may see some cute girls or handsome guys in our college. See the above rule. We wont cover your medical costs.<br />
+8.Many more rules will be made on the spot.  Don't whine about it.<br />
+<br />
+Event exclusively for Freshers of MACE!!!
+                    <h3>Contact</h3>ANU RAMESHAN<br />
+8113032253<br />
+<br />
+RAHUL KR<br />
+8089888118<br />
+<br />
+PRIYANKITHA S<br />
+8281850412<br />
+<br />
+</div><div class="event_details" id="a1006_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Here is a dance form requiring a perfect blend of dynamic symmetry, rhythmic perfection and synchronization aimed at fetching the innate finesse in the talented buds. Imitation, but not reflection is the key to success. This Sanskriti , its your chance to take the journey to the epitome of teamwork and dexterity. The spotlights are on and this is where you get to play the illusionist. So jump into your dancing shoes, step into the beats without the luxury of visibility. Come join us as we give you the stage to battle it out and win the title of the ultimate dancing duo.
+                    <h3>Rules</h3>1. A Team can consist of a maximum of 2 members(maximum 6 teams from a house).<br />
+2. Each team will be given a time slot of 4 minutes.<br />
+3. Use of props is allowed and participants should bring their on props.<br />
+4. There is n restriction to the choice of music.<br />
+5. Sound track should be submitted in mp3 format and the event head will not be responsible for malfunctioning of CD's.<br />
+6. Points shall be awarded on the basis of synchronisation,theme,costumes,props,choreography,expressions,presentation and stage usage.<br />
+7. Vulgarity of any sort will not be entertained and will be penalized.<br />
+8. Any team not ready by the specified time will stand disqualified.<br />
+9. Decision of the judges will be final.<br />
+
+                    <h3>Contact</h3>ADWAITH KERALAVARMA<br />
+9037882423<br />
+<br />
+ARYA C N<br />
+8547467128<br />
+</div><div class="event_details" id="a1009_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Feast your nerves with the thunder.... DJ Smokey Girl is all set to burn the floor.... <br />
+<br />
+Feel the heat... <br />
+<br />
+Go DJ-ing...<br />
+
+                    <h3>Rules</h3>Break the rules... Ride over the sky...<br />
+<br />
+
+                    <h3>Contact</h3>ROSHAN JACOB<br />
+8281136895<br />
+<br />
+ABHAY AUGUSTINE<br />
+89048157476<br />
+<br />
+</div><div class="event_details" id="a1010_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Singing has many types and genres through which we find ways to express our emotions. To sing a duet together means sharing with someone both the pleasure and the responsibility of making music.<br />
+Sanskriti 2015 brings you the chance to show case you and your partner’s music talent. We present before you the Duet of MACE.
+                    <h3>Rules</h3>1.	Must be a pair of two participants. Can be male, female or mixed.<br />
+2.	Two songs, one melody and one fast. Karaoke is a must.<br />
+3.	Both the participants must have an optimal share in the song.<br />
+4.	Both songs can be of any language.<br />
+5.	The participants must report at least half an hour before the event.<br />
+6.	Prelims will be conducted if the numbers of teams are more.<br />
+<br />
+Event exclusively for MACEians!!
+                    <h3>Contact</h3>AJITH P<br />
+9495505557<br />
+<br />
+VARSHA V<br />
+8281453921<br />
+</div><div class="event_details" id="a1011_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Oppana, beautiful girls flaunting in the traditional North Malabarian clothes, surrounding the bride dressed in all finery sitting with her veil half down her face,blushing red…. Enjoy yourself,be a part of it clapping to the rhythm of oppanapattu.
+                    <h3>Rules</h3>1.	Each team can have a maximum of 10 participants including 3 singers,6 dancers and the bride.<br />
+2.	The maximum time limit is 10 minutes.<br />
+3.	Judgment will be based on synch, formation,costume,makeup,expressions and overall performance.   <br />
+<br />
+Event exclusively for MACEians<br />
+
+                    <h3>Contact</h3>RINKU ROY<br />
+9847130375<br />
+<br />
+GEETHUMOL K<br />
+8281461114<br />
+<br />
+</div><div class="event_details" id="a1013_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> After silence, that which comes nearest to expressing the inexpressible is music. But when you get music and words together, that can be a very powerful thing. Musical idols revolutionize the world and inspire people to dream and believe in themselves. There is an idol in everyone. <br />
+Come be the Voice of MACE.....
+                    <h3>Rules</h3>Will be uEvent exclusively for MACEians!!<br />
+<br />
+Please contact the event heads for other details...pdated soon..
+                    <h3>Contact</h3>SARATH RAJ<br />
+9947315130<br />
+<br />
+HAFSA<br />
+9526844919<br />
+</div><div class="event_details" id="a1014_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Are you a quick-witted arguer or are you fed up watching debates on  usual topics???<br />
+If so be at MACE on this 19th march...SANSKRITI'15 gives you a platform where you can argue upto root zone on irrelevant and meaningletss topics...FISH MARKET DEBATE...hmm....u will really smell something FISHY here...😷
+                    <h3>Rules</h3>1. Can debate both in English and Malayalam.<br />
+2. It is an individual event<br />
+3. Prime objective is to work out comedy from the given topics. Credits will be given  each time you get an applause from the audience.<br />
+4. Personal insults,use of vulgar languages,shouting etc. will fetch you plenty of minus marks.
+                    <h3>Contact</h3>PETER<br />
+8943112797<br />
+<br />
+SHAMSIYA<br />
+7736527467<br />
+ </div><div class="event_details" id="a1015_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/>       With a handful of words and a mind full of thoughts ,synchronised by the hand of a clock , this is a platform to showcase the talent and bag home wonderful prizes.The word 'Ex Tempore' in itself means 'at the time' , this event is particularly designed so that you could just walk in , speak up and win.
+                    <h3>Rules</h3>1. The competition is an individual event.<br />
+2.​ The contestant will have to deliver a 3 minute speech based on a lot/topic picked.<br />
+3.​ Preparation time for the contestant will be 5 minutes <br />
+4.The topics would be based on current affairs<br />
+5. Evaluation will be based on the language, content and style of presentation.<br />
+6. Verdicts of the judges would be final.<br />
+
+                    <h3>Contact</h3>VASSIM<br />
+8281223815<br />
+<br />
+</div><div class="event_details" id="a1016_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Are you a good speaker? Do you have the confidence to speak on a given topic at any moment then we have extempore Malayalam competition for you.
+                    <h3>Rules</h3>1.	Different topics are given to the participants according to random selection and they are expected to speak on them.<br />
+2.	5 minutes are allotted for each of them for preparation.<br />
+3.	Marks will be given for fluency in language style of presentation and knowledge about the subject.  <br />
+
+                    <h3>Contact</h3>REMYA<br />
+9544810942<br />
+<br />
+SARGA<br />
+9497460182<br />
+</div><div class="event_details" id="a1017_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Will be updated soon...
+                    <h3>Rules</h3>Will be updated soon...
+                    <h3>Contact</h3>NOUFAL</div><div class="event_details" id="a1018_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Ever thought speaking English fluently for 60 seconds was easy? Well, nobody is going to let you do that. You will have to earn each second to speak. Welcome to JUST A MINUTE (JAM) where the best speakers have to prove their mettle by speaking without hesitation, repetition or deviation from the subject. Hunt down other speakers without you yourself becoming the prey.
+                    <h3>Rules</h3>1)	The participants are put together and are given a topic to speak about.<br />
+2)	Only one speaker can speak at a time.<br />
+3)	The JAM is technically 60 seconds long within which each speaker must try to speak.<br />
+4)	Hesitation, repetition and deviation from the subject can lead to challenges from other participants.<br />
+5)	Wrong or bogus challenges can lead to negative marks.<br />
+6)	Witty challenges, even though not within the rules, can lead to brownie points.<br />
+7)	Standard JAM rules apply unless otherwise specified by the JAM Master.<br />
+8)	The JAM Master’s decision will be final. 
+                    <h3>Contact</h3>SONAL K<br />
+8281460006<br />
+<br />
+NEETHU A<br />
+9495164523<br />
+<br />
+</div><div class="event_details" id="a1019_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/>    How much nonsense you can pack into a minute maintaining high sense of realism so as to avoid attracting your competitors wratch, ensuring at the same time that stuttering, stammering or slurring remain align to your use of the ‘Mighty Malayalam’. Welcome to the world of JAM ,the most exciting competition that showcases the most fluent speakers of the Malayalam language, pitched against each other in a battle to speak out for 60 seconds. Be prepared to shut other chatterbox mouths without compromising on your own.
+                    <h3>Rules</h3>1)	The participants are put on game together and are given 60 seconds to talk on the subject.<br />
+2)	Only one speaker gets to talk at a time.<br />
+3)	The competitors are to find the mistakes in other speakers and correctly identified mistakes will fetch you points as well as the chance to speak.<br />
+4)	Each second spoken is each point gained.<br />
+5)	Needless to say, bogus arguments will fetch you negatives and considering the depth of nonsense, further consequences too.<br />
+6)	Standard JAM rules apply.<br />
+7)	No rule files above JAM MASTER<br />
+8)	The decision of the judges will be final.
+                    <h3>Contact</h3>ANULEKSHMI R<br />
+8547563780<br />
+</div><div class="event_details" id="a1020_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> You sit down in your couch and watch Arnab Goswami throttle out his throat in all its glory at a poor politician who, out of pure shamelessness and with utter foolishness. Took a small amount from a small time business man. A simple question he asked.<br />
+	“Your politicians blame a media syndicate by claiming that exploiting the sense of negativity in an individual’s mindset is the sound foundation on which modern day news media is firmly basing its ideologies. Along with pointing out the pointlessness of your classes claims, I would also like to bring into your notice that there is a crowd waiting to hear the lame justification that you would give them for this undignified act of folly that you have publically disembarked. So Mr, answer me, where do politicians of today set the benchmark for level of decency and decorum?” And you thou it was easy being the man on TV. Well, we would like to see how you would react if you were the man in this poor man's shoe. Don’t worry though not a pointlessly irritating as the likes of modern news journalist, we too have a bunch of out of their mind kiddos, who will find immense pleasure in eating your head while your own stage.<br />
+	Be ready its gonna be a whacky ride!!!
+                    <h3>Rules</h3>Will be announced on the spot.
+                    <h3>Contact</h3>Jose Augustine<br />
+8891921996</div><div class="event_details" id="a1022_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> An art of expression of thoughts and understanding towards English literature ……<br />
+<br />
+Words flowing like water in spring ……expressions, thoughts and feelings clear in them……<br />
+<br />
+Feel this experience.<br />
+
+                    <h3>Rules</h3>Time allotted to each person is limited to 5 minutes.
+                    <h3>Contact</h3>JULIA J<br />
+8593923502<br />
+</div><div class="event_details" id="a1023_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/>     Malayalam... The great mother tongue that we are gifted with, is always in our words . Its beauty and sweetness can never be diminished.. The excellence and integrity of our culture can be exposed only through our poems and stories . <br />
+        <br />
+    Let's pay tribute to our language by reciting works of great poets who have contributed to the enhancement of our language over the past eras..<br />
+                         <br />
+    Well... Be proud and join us to explore the fragrance of our mother tongue through  MALAYALAM RECITATION .<br />
+<br />
+
+                    <h3>Rules</h3>Recitation should not exceed 5 mins.
+                    <h3>Contact</h3>NEENU C<br />
+8281457032<br />
+</div><div class="event_details" id="a1024_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Mehandi is an art of creating beautiful designs on the hands,feets,etc using henna.It is an occasion where you can put forward your designing ideas to decorate your beautiful hands with henna.<br />
+Join us for the “mehandi” with your mehandi adorned hands in a competition that will reflect the culture and tradition of India.<br />
+
+                    <h3>Rules</h3>1.	Each team should have two members.<br />
+2.	Participants are supposed to be present at the venue 15 minutes before the commencement of the event for registration.<br />
+3.	The design is to be portrayed on one hand only.<br />
+4.	Use of mehndi tattoos or designs that mimic tattoos are not entertained.<br />
+5.	The henna cones are to be provided to the participants by the respective house captains.<br />
+6.	The entries will be judged on the basis of design, complexity of the design, appearance and overall finish.<br />
+7.	The decision of the judges will be final and binding.<br />
+
+                    <h3>Contact</h3>NAMITHA<br />
+9961448380<br />
+<br />
+NOUSHA S<br />
+9400447913<br />
+</div><div class="event_details" id="a1025_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> BE THE NEXT VOICE OF FM...<br />
+<br />
+The intensity,the calmness, the profound beauty of a serene voice you hear over the radio. Want to be a part of one of those ? <br />
+<br />
+Judging Criteria:-<br />
+<br />
+1.	Clarity<br />
+2.	Spontaneity<br />
+3.	Wit and Creativity<br />
+4.	Originality<br />
+5.	Confidence<br />
+<br />
+Sanskriti presents RJ hunt where glory lies only in the voice...
+                    <h3>Rules</h3>Event exclusively for MACEians...<br />
+<br />
+Contact event heads for more details.
+                    <h3>Contact</h3>JOHN BERNADIN<br />
+8129880626<br />
+<br />
+ANSU M<br />
+9496234197<br />
+<br />
+</div><div class="event_details" id="a1028_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Revive the golden age when songs had a story to share and revisit the era of bell bottom pants, polka dots and puffed sleeves as teams dance to the most popular dance numbers of the past. A strong rush of nostalgia will be felt as our feet move in sync with songs that were a mix of style with beat.
+                    <h3>Rules</h3>Event exclusively for MACEians.<br />
+<br />
+Contact event heads for more details.
+                    <h3>Contact</h3>MAFEENA M<br />
+9746435658<br />
+<br />
+GREESHMA G<br />
+8129744698<br />
+<br />
+</div><div class="event_details" id="a1057_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Creativity overflows from your mind to your finger tips to your nails,that is what is nail art is. The competitor, the judge and the spectator thoroughly enjoy it and it is truly a feast for the eyes if you are a nail affectionate.<br />
+To do wonders on your nails with colours and glitters Sanskriti 2015 presents before you “NAIL ART”.<br />
+
+                    <h3>Rules</h3>1.	Each team should have 2 members.<br />
+2.	Participants are supposed to be present at the venue 15 minutes before the commencement of the event for registration.<br />
+3.	Nail polish must be the base coating. You are supposed to use other times like beads,glitters etc in addition to it.<br />
+4.	Judgment will be purely based on creativity, overall finish,colour sense and elegance.<br />
+5.	The necessary accessories should be provided by the house captains.<br />
+6.	The decision of the judges will be final and binding.<br />
+
+                    <h3>Contact</h3>SINI MV<br />
+9544610248<br />
+<br />
+EMY BABY<br />
+8129201512<br />
+</div><div class="event_details" id="a1008_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Will be updated soon...
+                    <h3>Rules</h3>Will be updated soon...
+                    <h3>Contact</h3>Will be updated soon...</div><div class="event_details" id="a1021_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> NIL
+                    <h3>Rules</h3>NIL
+                    <h3>Contact</h3>NIL</div><div class="event_details" id="a1012_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Will be updated soon..
+                    <h3>Rules</h3>Will be updated soon..
+                    <h3>Contact</h3>DEVIKA <br />
+VARSHA <br />
+</div>                
+            </div> <!-- Day1 hold -->
+            
+            <div class="hold_events" id="day2_hold">
+                <h1 style="font-family: 'Dynalight', cursive; color:#C52A4A; padding:10px;">The Day just got opened for all.</h1>
+                <div class="event_button_holder" id="day2_hold_button">
+                <button class="event_button" id="a1030" manval="day2_hold">CHOREO NIGHT</button><button class="event_button" id="a1029" manval="day2_hold">MR. AND MS.  SANSKRITI</button><button class="event_button" id="a1037" manval="day2_hold">AURA 2.0 (QUIZ)</button><button class="event_button" id="a1027" manval="day2_hold">STEP N SYNCHRO</button><button class="event_button" id="a1060" manval="day2_hold">WESTERN SOLO</button><button class="event_button" id="a1026" manval="day2_hold">FOOT STEPS</button><button class="event_button" id="a1031" manval="day2_hold">DUET OF SANSKRITI</button><button class="event_button" id="a1032" manval="day2_hold">VOICE OF SANSKRITI</button><button class="event_button" id="a1033" manval="day2_hold">KALEIDOSCOPE</button><button class="event_button" id="a1034" manval="day2_hold">DEBATE (ENG & MAL)</button><button class="event_button" id="a1035" manval="day2_hold">MOCKPRESS</button><button class="event_button" id="a1038" manval="day2_hold">ANTHAAKSHARI</button><button class="event_button" id="a1039" manval="day2_hold">DUMB C</button><button class="event_button" id="a1040" manval="day2_hold">LOVE LETTER WRITING</button><button class="event_button" id="a1041" manval="day2_hold">COMPUTER GAMING</button><button class="event_button" id="a1049" manval="day2_hold">JAM(MAL)</button><button class="event_button" id="a1056" manval="day2_hold">SALT N PEPPER</button><button class="event_button" id="a1059" manval="day2_hold">MASTER CHEF</button>                </div>
+                <div class="event_details" id="a1030_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Dancing was, is and will be the most exotic of all art forms that our race has developed. The sensuous sways of a perfectly sliced human figure are one of those pleasures any living being cannot resist.<br />
+<br />
+Sanskriti 2015 pays tribute to this divine art form through its biggest event, Choreography.<br />
+<br />
+A form of expression in its most dignified stature, dancing speaks a language right from the heart. The cultural heritage of Sanskriti is written in scores of these, so be there, and experience the enigma... <br />
+<br />
+Registration fees per team : Rs. 1000/-<br />
+<br />
+Cash Prize : Rs. 80,000/-
+                    <h3>Rules</h3>1. A team should have a minimum of 6 members.<br />
+2. Any number of teams from each college is allowed.<br />
+3. Time limit for each team is 15 minutes(including narration,stage set up etc..)<br />
+4. The judgement for theme based and non theme based performances are seperate.(seperate first and second prizes for both types)<br />
+5. There are no restrictions on the choice of music.<br />
+6. Vulgarity in any form is strictly prohibited and may lead to disqualification.<br />
+7. The judges' decisions will be final and are not open to review.<br />
+
+                    <h3>Contact</h3>BASIL DIXON<br />
+9895833773<br />
+<br />
+SARIGA<br />
+9446583832<br />
+</div><div class="event_details" id="a1029_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Those moments when your heart beats before you make that risky leap. Where you challenge your limits. Where you stop merely existing and start living, that's when you know your true worth. That's when you meet the real you.<br />
+Mr. And Miss Sanskriti... UNLEASHING THE ROYALTY IN YOU. ...<br />
+The toughest 'PERSONALITY-TEST'  in Kerala. Do you have what it takes to get MACE's ever-rolling 'Crown' .<br />
+<br />
+Prize Money : Rs. 10,000/-
+                    <h3>Rules</h3>1.This is a single day event. (We wont be able to bear your stupidity any longer)<br />
+2.You and only you are responsible for your actions or words. Be prepared for the consequences.<br />
+3.You are allowed to cry. (Not on our shoulders.Tissue 'will not' be provided)<br />
+4.Judges decision will be final.<br />
+5.Foul language is a No-No. However the esteemed audience may use it.<br />
+6.M.A.C.E, its students, Sanskriti organisers or staff will not be responsible for any physical or mental trauma you may endure.<br />
+7.You may see some cute girls or handsome guys in our college. See the above rule. We wont cover your medical costs.<br />
+8.Many more rules will be made on the spot.  Dont whine about it.
+                    <h3>Contact</h3>ANU RAMESHAN<br />
+9995650171<br />
+<br />
+JIMMY J<br />
+9745631312<br />
+<br />
+RAHUL KR<br />
+8089888118<br />
+<br />
+ANJALY PETER<br />
+9497280740<br />
+</div><div class="event_details" id="a1037_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Do you know what goes on in the world around you or are you content in your little bubble?<br />
+Test your knowledge of the happenings of the world with this ultimate quiz competition.<br />
+<br />
+Cash Prize : Rs. 10,000/- 
+                    <h3>Rules</h3>1. Team of two members.<br />
+2. Open to both school level and college level participants.<br />
+3. Consists of two levels : Prelims & Finals<br />
+4. Questions from various domains.<br />
+5. Decisions of the judges and event heads shall be treated as final and cannot be questioned.
+                    <h3>Contact</h3>NITHIN SURESH<br />
+9744803952<br />
+<br />
+NANDU R<br />
+9400635219<br />
+<br />
+BHARATH CHANDRAN<br />
+9645442384<br />
+<br />
+KRISHNA M K<br />
+9496759142<br />
+<br />
+<br />
+</div><div class="event_details" id="a1027_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Here is a dance form requiring a perfect blend of dynamic symmetry, rhythmic perfection and synchronization aimed at fetching the innate fitness in the talented buds. Imitation, but not reflection is the key to success. This Sanskriti ,  it’s your chance to take the journey to the epitome and teamwork and dexterity. The spotlights are on and this is where you get to play the illusionist. You pull off the coup and leave us spell bound , if you don’t...you still get to play the illusionist and plan your escapade. So jump into your dancing shoes, step into the beats without the luxury of visibility. Come join us as we give you the stage to battle it out and win the title of the ultimate dance duo..<br />
+<br />
+Cash Prize : Rs. 6,500/-
+                    <h3>Rules</h3>1. A team can consist of a maximum of two members (no limit on the number of teams from a college)<br />
+<br />
+2. Theme is optional and will be credited accordingly<br />
+<br />
+3. Each team will be given a time slot of 10 minutes.<br />
+<br />
+4. Use of props is allowed , participants should   bring their own props.<br />
+<br />
+5. There is no restriction to the choice of music.<br />
+<br />
+6. The soundtrack should be submitted in a CD and in MP3 format . The Event-in-charge will not be responsible for malfunctioning CD’s<br />
+<br />
+7. It’s the responsibility of the participants to ensure that the CD containing the sound track  with the name of the college written on it  is submitted two hour prior to the commencement of the event<br />
+<br />
+8. Points shall be awarded on the basis of the synchronisation, theme, costumes, props, choreography, expressions, presentation and stage usage.<br />
+<br />
+9. Vulgarity of any sort will not be entertained and will be penalized.<br />
+<br />
+10. Any team not ready by the specified time will stand disqualified<br />
+<br />
+11. Use of fire, animals and hazardous material are not allowed<br />
+<br />
+12.The decision of the judges will be final and binding.
+                    <h3>Contact</h3>VINEETH<br />
+8891155746<br />
+<br />
+SHARLIN<br />
+8547349773<br />
+</div><div class="event_details" id="a1060_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Western Music has always been about what one feels about themselves. It almost feels like talking.<br />
+Give yourself an opportunity to express the language of music...<br />
+Western Solo is all about that...<br />
+<br />
+Cash Prize : Rs. 4,000/-
+                    <h3>Rules</h3>1. Only English songs are allowed.<br />
+2. Time limit :  3 to 6 minutes.<br />
+3. Contestant can either play karaoke or back himself/herself with an instrument.<br />
+4. The instrument can be played by himself/herself or a companion.
+                    <h3>Contact</h3>NITHIN K<br />
+9496072779<br />
+</div><div class="event_details" id="a1026_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> So you think you can dance? Face a set of fast number songs on the spot, use the properties given and dance to the beats and then we will believe you.<br />
+<br />
+Judging Criteria:<br />
+1.	Choreography & Creativity.<br />
+2.	Synchronization to music.<br />
+3.	Energy and expressions.<br />
+4.	Maximum utilization of the stage.<br />
+<br />
+Cash Prize : Rs. 4,500/-
+                    <h3>Rules</h3>1.	Song duration will be three minutes.<br />
+2.	Song will be played randomly by the organizers.<br />
+3.	Costumes should be appropriate for general audience. Indecent exposure or vulgarity will not be permitted.<br />
+4.	Judges decisions are final.<br />
+
+                    <h3>Contact</h3>VYSHAKH K<br />
+9946677810<br />
+<br />
+ANEENA SAINU<br />
+9633286122<br />
+<br />
+</div><div class="event_details" id="a1031_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Singing has many types and genres through which we find ways to express our emotions. To sing a duet together means sharing with someone both the pleasure and the responsibility of making music.<br />
+Sanskriti 2015 brings you the chance to show case you and your partner’s music talent. We present before you the Duet of MACE.<br />
+<br />
+Cash Prize : Rs. 3,000/-<br />
+
+                    <h3>Rules</h3>1.	Must be a pair of two participants. Can be male, female or mixed.<br />
+2.	Two songs, one melody and one fast. Karaoke is a must.<br />
+3.	Both the participants must have an optimal share in the song.<br />
+4.	Both songs can be of any language.<br />
+5.	The participants must report at least half an hour before the event.<br />
+6.	Prelims will be conducted if the numbers of teams are more.<br />
+
+                    <h3>Contact</h3>AJITH P<br />
+9495505557<br />
+<br />
+VARSHA V<br />
+8281453921<br />
+</div><div class="event_details" id="a1032_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> After silence, that which comes nearest to expressing the inexpressible is music. But when you get music and words together, that can be a very powerful thing. Musical idols revolutionize the world and inspire people to dream and believe in themselves. There is an idol in everyone. <br />
+Come be the Voice of Sanskriti.....<br />
+<br />
+Cash Prize : Rs. 3,000/-
+                    <h3>Rules</h3>1.	The competition is divided into two rounds : Prelims & Finals.<br />
+2.	The final judgment will be based on total of all the two phases.<br />
+3.	Any genre of music including classical, western, hindustani, etc may be sung. Karaoke may be used.<br />
+4.	Judgment of judges will be final and irrevocable.<br />
+5.	Registration is required before audition.<br />
+
+                    <h3>Contact</h3>SARATH RAJ<br />
+9947315130<br />
+<br />
+HAFSA<br />
+9526844919<br />
+</div><div class="event_details" id="a1033_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Magic in a close tube,many images,many reflections from a few pieces. This event is for all the magicians who create wonders on an open canvas.MA college of engineering presents you a chance to prove your talents.<br />
+<br />
+Express the world of colour in just greys and whites. Sketch your creativity to the limits in the pencil drawing event, Kaleidoscope...<br />
+<br />
+Cash Prize : Rs. 1000/-
+                    <h3>Rules</h3>1. Participants can use pencils,crayons,water colour, poster colour etc as their requirement.<br />
+2. Participants should bring all the required items (pencils, colours etc).<br />
+3. Maximum time limit is 2 hrs.<br />
+4. The drawings should be based on the theme provided by the event heads which would be revealed 5 min. prior to the commencement of the event<br />
+5. It should be purely creative. Usage of phone,laptops etc by the participants during the event is not entertainment.<br />
+6. The decision of judges and event heads would be final.
+                    <h3>Contact</h3>Sreyas Varma<br />
+9656337452<br />
+<br />
+Marva T<br />
+8281584379</div><div class="event_details" id="a1034_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Do you fancy yourself as a man of the words? Have you ever found<br />
+yourself in a verbal frenzy when asked for an opinion on a worldly<br />
+matter? Do you find heated repartee to be your strong suit? Can you be<br />
+a man of refinement and tolerate a difference of opinion? If your<br />
+answer for the above questions was yes, this might be the perfect<br />
+opportunity for you to tap your potential and earn some easy money.<br />
+So, get your thinking cap on and let the world bear witness to your<br />
+fine oratory skills. Put your foot down and stand up for what you<br />
+believe. Who knows, you might even realize that you have the power to<br />
+change the world.<br />
+<br />
+
+                    <h3>Rules</h3>1. Separate event for two languages (Eng & Mal).<br />
+2. Two participants per team.<br />
+3. Written prelims.<br />
+4. Six teams will be selected to the final round.<br />
+5. One member speaks for the topic and the other person against it.<br />
+6. Topic will be given at least 30 minutes prior to the event.<br />
+7. Three minutes per speaker followed by questioning round.<br />
+8. The decision of judges will be final.
+                    <h3>Contact</h3>FARHANA YASMIN<br />
+8281448803 <br />
+</div><div class="event_details" id="a1035_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> You sit down in your couch and watch Arnab Goswami throttle out his throat in all its glory at a poor politician who, out of pure shamelessness and with utter foolishness. Took a small amount from a small time business man. A simple question he asked.<br />
+	“Your politicians blame a media syndicate by claiming that exploiting the sense of negativity in an individual’s mindset is the sound foundation on which modern day news media is firmly basing its ideologies. Along with pointing out the pointlessness of your classes claims, I would also like to bring into your notice that there is a crowd waiting to hear the lame justification that you would give them for this undignified act of folly that you have publically disembarked. So Mr, answer me, where do politicians of today set the benchmark for level of decency and decorum?” And you thou it was easy being the man on TV. Well, we would like to see how you would react if you were the man in this poor man's shoe. Don’t worry though not a pointlessly irritating as the likes of modern news journalist, we too have a bunch of out of their mind kiddos, who will find immense pleasure in eating your head while your own stage.<br />
+	Be ready its gonna be a whacky ride!!!<br />
+<br />
+Cash Prize : Rs. 2,500/-<br />
+
+                    <h3>Rules</h3>Will be announced on the spot.
+                    <h3>Contact</h3>Jose Augustine<br />
+8891921996</div><div class="event_details" id="a1038_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> We are like to sing and take the stage. But all of us hesitate thinking of our lack of prowess. Now, here we give you a chance to sing and win a prize without having the least concern about pitch, rhythm and scale.<br />
+<br />
+Cash Prize : Rs. 1,000/-
+                    <h3>Rules</h3>1. Rounds : Prelims & Finals<br />
+2. The rounds of the final contest will be decided by the judges in situ.<br />
+3. The decision of the judges will be final. 
+                    <h3>Contact</h3>BIJIN<br />
+9400539672<br />
+<br />
+FREDA<br />
+9567339168<br />
+</div><div class="event_details" id="a1039_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> How much do you speak everyday? Why not try something different? Master the art of silent speak! Go full barfi style with the time old game of the charades! Welcome to DUMB C , a classic  fun entertainer, a game of words. Watch the actions as they speak !<br />
+<br />
+Cash Prize : Rs. 1,000/-
+                    <h3>Rules</h3>1)	The team should comprise of 4 members.<br />
+2)	All the four members from a team should participate. <br />
+3)	The actor should not make any sounds including clapping,humming,whistling….<br />
+4)	The actor should not point out any of the objects or person present in the scene.<br />
+5)	Enacting  of individual alphabets is not allowed.<br />
+6)	The actor should communicate only through actions and facial expressions. Writing any word or part of it is strictly prohibited.<br />
+
+                    <h3>Contact</h3>ELDHO JOHN<br />
+9895885650<br />
+<br />
+ANAGHA MARY PAUL<br />
+8129593274<br />
+ </div><div class="event_details" id="a1040_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> From Romeo Juliet to Shahryar Scheherzade to Laila Majnoon, lovers have made their token of love renowned to the world. If you are a billionaire,  you could build a Taj Mahal, but all we have now is the weapon of expression. So,  win hearts by expressing your hearts, claim the fame and bag home the prize.<br />
+<br />
+Cash Prize : Rs. 500/-
+                    <h3>Rules</h3>1. Letter can be written in any language, just make sure that we can read it.<br />
+2. We do not say that flirting with your love is a crime, but since this is a competition we have no option, we will have to disqualify those who resort to vulgar language. Sorry about that, but yea, we're pretty mean with this rule.<br />
+3. Decisions made by the judges are final.
+                    <h3>Contact</h3>SUMEETH<br />
+8129966199<br />
+<br />
+KEERTHI SABU<br />
+9562801198<br />
+</div><div class="event_details" id="a1041_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Do you have what it takes to top the leaderboards? Can you make the fastest lap time in NFS or score the most goals in FIFA? if casual games are your thing then smash pigs in Angry Birds or jump trains in subway surfers.<br />
+<br />
+Highlights : NFS and Subway Surfers<br />
+<br />
+Cash Prize : Rs. 2,000/-
+                    <h3>Rules</h3>Rules will be provided on the spot.
+                    <h3>Contact</h3>SHAHEEN<br />
+8281442174<br />
+<br />
+INDHU<br />
+9747084814<br />
+</div><div class="event_details" id="a1049_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/>    How much nonsense you can pack into a minute maintaining high sense of realism so as to avoid attracting your competitors wratch, ensuring at the same time that stuttering, stammering or slurring remain align to your use of the ‘Mighty Malayalam’. Welcome to the world of JAM ,the most exciting competition that showcases the most fluent speakers of the Malayalam language, pitched against each other in a battle to speak out for 60 seconds. Be prepared to shut other chatterbox mouths without compromising on your own.<br />
+<br />
+Cash Prize : Rs. 3000/-
+                    <h3>Rules</h3>1)	The participants are put on game together and are given 60 seconds to talk on the subject.<br />
+2)	Only one speaker gets to talk at a time.<br />
+3)	The competitors are to find the mistakes in other speakers and correctly identified mistakes will fetch you points as well as the chance to speak.<br />
+4)	Each second spoken is each point gained.<br />
+5)	Needless to say, bogus arguments will fetch you negatives and considering the depth of nonsense, further consequences too.<br />
+6)	Standard JAM rules apply.<br />
+7)	No rule files above JAM MASTER<br />
+8)	The decision of the judges will be final.<br />
+
+                    <h3>Contact</h3>ANULEKSHMI R<br />
+8547563780</div><div class="event_details" id="a1056_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> What would be your definition of fun?<br />
+Things that make you laugh from the bottom of your heart?<br />
+Things that you do with your best friends?<br />
+Activities that test your skills?<br />
+Do you think you have what it takes to win?<br />
+If you're addicted to fun, this is where you need to be to get your fix.<br />
+<br />
+If you believe you have the best besties and are looking to have fun, come join us for Salt N Pepper in association with Sanskriti 2015...FUN UNLEASHED!!<br />
+<br />
+Cash Prize : Rs. 3,000/-
+                    <h3>Rules</h3>1. Each team will contain 4 members(with a minimum of one girl and one boy).<br />
+2. All tasks have to be completed within the time limit for the result to be considered.<br />
+3. The decision of the Salt N Pepper crew will be final in case of any disputes.
+                    <h3>Contact</h3>DEVIKA HARI<br />
+9400058910<br />
+<br />
+AMRITA SURESH<br />
+8281437347<br />
+<br />
+</div><div class="event_details" id="a1059_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> No-one is born a great cook, one learns by doing...<br />
+<br />
+Think you have a cook sleeping inside you... get your knives sharpened, keep your fingers ready... for the first time in SANSKRITI.. a real ethnic cooking experience!!!<br />
+<br />
+Enjoy cooking !!!!!!!<br />
+<br />
+Cash Prize : Rs. 3,000/-
+                    <h3>Rules</h3>1. Team size : 1 to 3 per team.<br />
+2. Prelims will be conducted.<br />
+3. Teams qualifying for the final round round will have to cook the recipe assigned to you fully in the traditional way.<br />
+4. All items will be provided to you by team SANSKRITI.<br />
+5. Use of mobile phones and other assisting devices are strictly prohibited.<br />
+6. Decision made by the judges and event coordinators will be final .
+                    <h3>Contact</h3>ARUN JOJI<br />
+8893439889<br />
+<br />
+ATHIRA MS<br />
+9400158005<br />
+<br />
+SARAH MATHEW<br />
+8547380633</div>                
+            </div> <!-- Day2 hold -->
+            
+            <div class="hold_events" id="day3_hold">
+                <h1 style="font-family: 'Dynalight', cursive; color:#C52A4A; padding:10px;">The last day for lasting Memories.</h1>
+                <div class="event_button_holder" id="day3_hold_button">
+                <button class="event_button" id="a1044" manval="day3_hold">PRO SHOW : LAGORI</button><button class="event_button" id="a1043" manval="day3_hold">UNPLUGGED</button><button class="event_button" id="a1055" manval="day3_hold">RJ HUNT</button><button class="event_button" id="a1051" manval="day3_hold">SHORT FILM FEST</button><button class="event_button" id="a1053" manval="day3_hold">TREASURE HUNT</button><button class="event_button" id="a1052" manval="day3_hold">COMPUTER GAMING</button><button class="event_button" id="a1036" manval="day3_hold">IPL AUCTION</button><button class="event_button" id="a1042" manval="day3_hold">CITIZEN JOURNALIST</button><button class="event_button" id="a1045" manval="day3_hold">BEST ACTOR</button><button class="event_button" id="a1046" manval="day3_hold">SANTHWANAM</button><button class="event_button" id="a1047" manval="day3_hold">JAM(ENG)</button><button class="event_button" id="a1048" manval="day3_hold">CANVAS DRAWING</button><button class="event_button" id="a1050" manval="day3_hold">NATYA (MONOACT)</button><button class="event_button" id="a1054" manval="day3_hold">CREATIVE WRITING</button><button class="event_button" id="a1058" manval="day3_hold">SPELL B</button>                </div>
+                <div class="event_details" id="a1044_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Hey MACEians!!!<br />
+<br />
+    This March 21st,get ready to be Lagori'fied!! FIRST TIME ever live in MACE...<br />
+<br />
+    Lagori,from the cosmopolitan city of Bangalore,a city that is a melting pot of cultures,ideas,languages and beliefs. The Lagori music reflects the varied influences of each band member,culminating in unique,fresh and honest sound.<br />
+    Their music,that reflects the face of the modern Indian youth by combining Indian classical melodies and inflections with Rock Music,resulting in an interesting mix,that is high on energy,while being catchy and soulful at the same time.<br />
+    We truly hope the Lagoric music takes you all on a euphoric ride and let's enjoy the Lagori Universe. So,Lagori is gonna be here on March 21st,at our very own OAT,to dish out foot tapping,soul stirring music.<br />
+<br />
+Lagori draws influence from the flavor of each musicians-ranging from Hindustani, Soul, Funk, Rock, Blues and Metal, the end result has a tinge of familiarity to it.We, proudly present before you,the rock band, Lagori and welcome you all for all the madness that follows.<br />
+<br />
+So, the Lagori'fying starts....Be there!!!
+                    <h3>Rules</h3>No Room For Rules!!!!
+                    <h3>Contact</h3>JOHN B<br />
+8129880626<br />
+<br />
+VINEETH<br />
+8891155746<br />
+<br />
+ARSHIN S<br />
+9961752977<br />
+</div><div class="event_details" id="a1043_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> With advanced technology, musicians have all the resources to manipulate what they play. And the respect of the layman towards musicians is on the decline. Well, this is your time where you can earn the respect you deserve as a musician. We are proud to present MACE UNPLUGGED where no manipulation is allowed but only pure, original music. So, get ready for the ultimate music battle with fret noises, ghost notes and prove yourself to be the virtuoso.<br />
+<br />
+<br />
+Cash Prize : Rs. 30,000/-<br />
+
+                    <h3>Rules</h3>1.	Maximum of 10 participants per team will be allowed.<br />
+2.	Songs can be in any Indian language or English<br />
+3.	Electric guitars can be used only in clean tone(without processors or modifiers)<br />
+4.	Electric/acoustic bass guitar may be used.<br />
+5.	Standard 5 piece drum kit will be provided.<br />
+6.	Keyboards are allowed in piano patch only.<br />
+7.	Maximum time alloted for a team(including setting and performance) is 15mins.<br />
+8.	Exceeding the time limit may lead to disqualification.<br />
+9.	Participants have to bring their own instruments except drum kit.<br />
+
+                    <h3>Contact</h3>Vishakh Adolph                   <br />
+9447123007                          <br />
+<br />
+Harshan A.T<br />
+9446158525</div><div class="event_details" id="a1055_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> BE THE NEXT VOICE OF FM...<br />
+<br />
+The intensity,the calmness, the profound beauty of a serene voice you hear over the radio. Want to be a part of one of those ? <br />
+<br />
+Judging Criteria:-<br />
+<br />
+1.	Clarity<br />
+2.	Spontaneity<br />
+3.	Wit and Creativity<br />
+4.	Originality<br />
+5.	Confidence<br />
+<br />
+Sanskriti presents RJ hunt where glory lies only in the voice...<br />
+<br />
+Cash Prize : Rs. 6000/-<br />
+
+                    <h3>Rules</h3>1.	Entries will be selected on a first come first served basis<br />
+2.	All participants should be registered college students <br />
+
+                    <h3>Contact</h3>BASIL BASHEER<br />
+9846835869<br />
+<br />
+AMRITA<br />
+8281437347</div><div class="event_details" id="a1051_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Show your direction skills, play with words, create new waves of ideas, put in some soulful music and heartwarming lines, find something more than what others.<br />
+<br />
+Use the allotted time and what you have is a short film that is crisp, sharp and exciting.<br />
+<br />
+Cash Prize : Rs. 6000/-<br />
+
+                    <h3>Rules</h3>1.The entry must be the one which was made within 24 months of the final submission date.<br />
+ 2. There is no subject or theme for the competition in particular.<br />
+3. The entries have to be original. Content copied from any external source shall lead to direct disqualification.<br />
+4.The registration fee is INR 350.<br />
+5. The film cannot exceed a total of 30 minutes running time, not including the title card and credits.<br />
+6. Entries may be in any language.<br />
+7. Presence of any form of vulgar, obscene, pornographic or religiously offensive content material- thematic or otherwise- will not be tolerated and will lead to direct disqualification.<br />
+8. Only selected entries screened by the jury WILL BE DISPLAYED DURING the festival and the screening will be solely the discretion of the jury.<br />
+9. Physical presence of the applicant is not mandatory.<br />
+10. All the films must be submitted to us in a single DVD or CD encoded in industry-standard video formats. Entries that are of unrecognized video formats shall not be considered.<br />
+11. The DVD may be sent via speed post or present on the spot along with the following.<br />
+12.  The complete list of the cast and crew of the entry printed or written in an A4 size sheet.<br />
+13. In order to ensure the safe delivery of the package, the participants are instructed to email the details of the speed post, as soon as they send it to “musemace @gmail.com”.<br />
+14.The quality of the video should be suitable for screening of the film using a standard projector.<br />
+The entries must be submitted on or before 18th March,2015.<br />
+15. The decision of the organizers will be final.<br />
+
+                    <h3>Contact</h3>GOKUL<br />
+9567080552</div><div class="event_details" id="a1053_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> If we don't have the key, we can't open whatever it is we don't have that it unlocks. So what purpose would be served in finding whatever need be unlocked, which we don't have, without first having found the key what unlocks it? <br />
+- Jack Sparrow<br />
+<br />
+It's not gonna be easy...but we are telling you, it's gonna be worthy... Get ready to sweat... Grab the clues...get to the treasure...<br />
+<br />
+Cash prize : Rs. 5,500/-
+                    <h3>Rules</h3>1.	Each team should consist of exactly four members.<br />
+2.	Prelims will be conducted for short listing.<br />
+3.	The decisions of the event heads are final.<br />
+4.	Use of mobile phones and other communication devices are strictly prohibited.<br />
+5.	Violation of any rules will lead to disqualification.
+                    <h3>Contact</h3>SHIFAL<br />
+7293917754<br />
+</div><div class="event_details" id="a1052_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Do you have what it takes to top the leaderboards? Can you make the fastest lap time in NFS or score the most goals in FIFA? if casual games are your thing then smash pigs in Angry Birds or jump trains in subway surfers.<br />
+<br />
+Highlights : FIFA and Angry Birds<br />
+<br />
+<br />
+Cash Prize : Rs. 4000/-
+                    <h3>Rules</h3>Rules shall be announced on the spot.
+                    <h3>Contact</h3>SHAHEEN<br />
+8281442174<br />
+<br />
+INDHU<br />
+9747084814<br />
+</div><div class="event_details" id="a1036_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Are you a cricket fanatic? Is it in your blood? Have you ever dreamt of the perfect team?<br />
+<br />
+Well here is a chance...<br />
+<br />
+Registration Fees : Rs. 150 per team.<br />
+<br />
+Cash Prize : Rs. 4,000/-
+                    <h3>Rules</h3>1. Team : 3 members.<br />
+2. Two rounds : Prelims & Finals.<br />
+3. Prelims : Written Quiz on  Sports Trivia,Basic Mathematics<br />
+4. Finals : Auction<br />
+5. Decisions of judges and event heads will be final.
+                    <h3>Contact</h3>BHARATH CHANDRAN<br />
+9645442384<br />
+<br />
+SRIRAG S<br />
+9400841395<br />
+</div><div class="event_details" id="a1042_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Citizen journalism can range from simply posting your thoughts in the comments section of your local newspaper's website, to producing your own blog or website that you fill with original reporting. So are you ready to become the Citizen Journalist ? Are you ready to capture the little things that go unnoticed on your lens…? Is your sense of patriotism and humor enough to change the scenario ..?<br />
+Then come to MACE on March 20,2015 to unleash your potential !  <br />
+SANSKRITI 2015 welcomes you to the event CITIZEN JOURNALIST to capture and combine the clips you take from within the campus. Show through your clips how you see the world !<br />
+<br />
+Cash Prize : Rs. 2,500/-<br />
+
+                    <h3>Rules</h3>1.	Group event with two people in each group.<br />
+2.	Each group must have their own cameras and laptops.<br />
+3.	The group of two needs to go around the campus and take video clips may be  based on a theme.<br />
+4.	The group will be allotted a time limit of 2hrs to take the clips and merge it to form a video of duration 4 minutes.<br />
+
+                    <h3>Contact</h3>SANDEEP<br />
+9446805255<br />
+<br />
+POOJA R<br />
+8281709648<br />
+</div><div class="event_details" id="a1045_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Have you ever found yourself in an awkward situation well you are about to in 'Best Actor'. We ask you to enact the most bizarre and ridiculous situation in life with flair and flamboyance that only a great actor possess... Come forward and bring your best with you....<br />
+<br />
+Cash Prize : Rs. 2500/-<br />
+
+                    <h3>Rules</h3>1. Individual event.<br />
+2. The competition will consist of two rounds : A preliminary screening and a Final round.<br />
+3. Decisions made by the judges and event heads shall be treated as final and cannot be questioned.<br />
+4. Event heads can change the rules of the event without prior notice and it is the responsibility of the participants to get themselves updated.<br />
+<br />
+
+                    <h3>Contact</h3>ABHINAND<br />
+9947876278<br />
+<br />
+ANJUSHA RAM<br />
+8606069884<br />
+</div><div class="event_details" id="a1046_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Though they couldn’t see the beauty of mother nature they could soothe the souls of their brethrens with their wonderful voice.<br />
+                                     ‘Santhwanam’,conducted as a part of Sanskriti’15 presents before you a group of visually challenged people with their wonderful vocal skills. Come and relive a few moments filled with music along with them.<br />
+<br />
+
+                    <h3>Rules</h3>Come and support the cause... Keep Sanskriti alive...
+                    <h3>Contact</h3>MACEians</div><div class="event_details" id="a1047_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Ever thought speaking English fluently for 60 seconds was easy? Well, nobody is going to let you do that. You will have to earn each second to speak. Welcome to JUST A MINUTE (JAM) where the best speakers have to prove their mettle by speaking without hesitation, repetition or deviation from the subject. Hunt down other speakers without you yourself becoming the prey.<br />
+<br />
+Cash Prize : Rs. 3000/-
+                    <h3>Rules</h3>1)	The participants are put together and are given a topic to speak about.<br />
+2)	Only one speaker can speak at a time.<br />
+3)	The JAM is technically 60 seconds long within which each speaker must try to speak.<br />
+4)	Hesitation, repetition and deviation from the subject can lead to challenges from other participants.<br />
+5)	Wrong or bogus challenges can lead to negative marks.<br />
+6)	Witty challenges, even though not within the rules, can lead to brownie points.<br />
+7)	Standard JAM rules apply unless otherwise specified by the JAM Master.<br />
+8)	The JAM Master’s decision will be final. <br />
+
+                    <h3>Contact</h3>SONAL KURUVILLA<br />
+8281460006<br />
+<br />
+RUBIN JACOB<br />
+9746474567<br />
+</div><div class="event_details" id="a1048_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Challenging the spirits of the great artists - Picasso, Da Vinci and even Van Gogh and express yourselves on canvas. Bring out your inner artist with Canvas Drawing....<br />
+<br />
+Cash Prize : Rs. 1000/-
+                    <h3>Rules</h3>Will be updated soon...
+                    <h3>Contact</h3>RAHUL UDAY<br />
+8547842839<br />
+</div><div class="event_details" id="a1050_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Can you perform a play or enact an incident all by yourself? If yes, we have a stage for you to showcase your exemplary acting skills through the Monoact competition. Your way of thinking, way of speaking and the ease with which you express your ideas could all score you points. So come enact and leave with a pretty good cash prize.<br />
+<br />
+Cash Prize : Rs. 2500/-
+                    <h3>Rules</h3>Will be announced on the spot.
+                    <h3>Contact</h3>NIDHIN KUNJACHAN <br />
+8943474931<br />
+</div><div class="event_details" id="a1054_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Answering an exam has always been a nightmare especially when you don't know the answer to the question. That's when everyone gets a stint with creative writing. What if this could fetch you a prize?<br />
+<br />
+Creative writing gives you just that opportunity. All you need to do is wield your pen to your interminable creative mind.
+                    <h3>Rules</h3>Medium : Malayalam & English<br />
+<br />
+Rules will be announced on the spot.
+                    <h3>Contact</h3>APPU KURIAN<br />
+9446920108</div><div class="event_details" id="a1058_a">
+                    <div class="back_button2"><span class="icon-arrow-left"></span><br/></div>
+                    <br/> Life gets faster each day and words gets shorter. In such a scenario, no one cares about  the spelling. <br />
+Hence, spelling a word is indeed a challenge. Sanskriti 15 brings to you Spelling Bee where the only thing you need to make it the top is your knowledge of how alphabets are arranged in a word. To be the champion you must be the creme de la creme.<br />
+<br />
+Cash Prize : Rs. 4,500/-
+                    <h3>Rules</h3>- Age limit : 24 years<br />
+- Participants should not have participated in any international spelling bee competitions.
+                    <h3>Contact</h3>ASHWIN P<br />
+9544562884<br />
+<br />
+BASIL JACOB<br />
+8907400414<br />
+</div>                
+            </div> <!-- Day3 hold -->
+            
+        </div>
+     </div>
+     
+     <div class="floater" id="floater_gallery">
+         <div class="floater_title">the amazing <span style="font-size:60px;">gallery</span> </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+         <div class="floater_content">
+         <h1 style="font-family: 'Luckiest Guy', cursive; color:#333; padding:10px;">Coming soon</h1></div>
+     </div>  <!-- Gallery -->
+     
+     <div class="floater" id="floater_spotlight">
+         <div class="floater_title">for you, the <span style="font-size:60px;">superb events</span>  </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+
+          <div class="floater_content">  
+              <div style="margin-top:30px;">
+                <div class="superb" id="superb1"><div class="superb_inner">DJ Smokey Girl<br/><h2>19 March</h2></div></div>
+                <div class="superb" id="superb2"><div class="superb_inner">Choreo Night<br/><h2>20 March</h2></div></div>
+                <div class="superb" id="superb3"><div class="superb_inner">Pro Show - Lagori<br/><h2>21 March</h2></div>
+            </div>
+                <div class="superb1"></div><br/><br/>
+                <div class="superb1">Hand shadow-21 March</div><br/><br/>
+                <div class="superb1">Unplugged-21 March</div><br/><br/>
+              </div>
+                
+                
+            </div>
+     </div> <!-- Spotlight -->
+     
+     <div class="floater" id="floater_contact">
+         <div class="floater_title"> <span style="font-size:60px;">contact</span> us in your need. </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+         
+         <div class="floater_content">
+         <div class="scroller" style="padding-left:30px;">
+             <h2>Kevin Johny (Chairman)<br/>+91 9496540206</h2>
+             <h2>Sangeeth Krishnan (General Secretary)<br/>+91 8129192699</h2>
+             <h2>Thomas George (Staff in charge)<br/>+91 9447370146</h2>
+             <h2>Vishal Philip (Arts Club Secretary)<br/>+91 9048584794</h2>
+             <h2>Aditya Vijayakumar (Sponsorship Head)<br/>+91 8891949789</h2>
+             <h2>Nikhil Raj P K (Publicity Head)<br/>+91 9895834943</h2>
+             <h2>Vrathi J B (Event Co ordinator)<br/>+91 8547253487</h2>
+             <h2>Flemin Joe (Event Co ordinator)<br/>+91 9496491870</h2>
+             </div>
+         </div>
+     </div>    <!-- Contact -->
+     
+     <div class="floater" id="floater_about">
+         <div class="floater_title">all <span style="font-size:60px;">about</span> us. </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+         
+         <div class="floater_content">
+             <div class="scroller">
+        <h2>About Sanskriti</h2>
+                 
+                 Languages defined men...their ways, traditions and customs..."Sanskriti", our arts fest is our culture,
+
+our language, our sentiments...Days soaked in the energy,laughter and happiness of all...An 
+
+opportunity for the young minds to stage their talents, to showcase their artistic and creative 
+
+capabilities...An attempt to trigger the youthful vibe in each of you and assimilate real joy...An 
+
+endeavour to let our minds drift beyond the confines of a classroom..Sanskriti is much more... it is 
+
+beyond words,beyond colours, beyond descriptions...<br/><br/>The Sanskriti anthem says it all,“ The times 
+
+when your life actuallysmiles are moments like these ”Yeh Sanskriti--hamara hei..!!
+             
+             <br/>
+         <h2>About MACE</h2>
+             Kothamangalam, a place better known as "the gateway to western Ghats" is not only a land known 
+
+for fables and churches. This place owns one of the best engineering colleges in the state,the Mar 
+
+Athanasius College of Engineering (MACE). The college for the past 52 years has constantly produced 
+
+renowned personalities in the field of engineering. The first ever Christian management college in 
+
+Asia, and the first college to have enrolled in the Mahatma Gandhi University, with over six branches 
+
+of engineering and five post graduate courses, 3000 students presently being trained and over 
+
+12,000 notable alumni, MACE proudly holds the record and continues to make new ones. MACE also 
+
+hosts a lush green ambience beautified by the symphonies of Mozart and Beethoven from the 
+
+garden speakers that infuses a calm, serene and refresh, ing environment. The college promotes a 
+
+wide variety of activities, be it educational or cultural and the different clubs play an important role 
+
+in bringing out the best in the students. Every bit of information that a student could possibly wish 
+
+for, is provided by the department libraries, state of the art workshops, I. T. centre and the central 
+
+library that houses a mammoth collection of journals and papers thus it could be said that life at 
+
+MACE is truly a dream college life for every student.<br/>
+             
+         </div>
+         </div>
+     </div>    <!-- About -->
+     
+     <div class="floater" id="floater_sponsor">
+         <div class="floater_title">Amazing <span style="font-size:60px;">sponsors</span>. </div>
+         <div class="floater_close"><span class="icon-arrow-left"></span></div>
+         <div class="floater_content">
+            <div class="scroller">
+             <h2>Why sponsor us?</h2>
+                Your company name and logo will appearin each of the multiple round of posters that will be sent to 
+
+over 250 colleges across the state.<br/><br/>
+
+Over 10,000 footfalls are expexted to hit  MACE during Sanskriti days,hence the cost to benefit ratio 
+
+of an advertising investment as Sanskriti is a clear win for your organization.<br/><br/>
+
+Online events and frequent promotional activities,undertaken by our truly dynamic publicity team 
+
+will ensure that the world of your firms association with Sanskriti reaches even the most silent 
+
+patches in the state.<br/><br/>
+
+The LED display setup in our campus gives a chance to display frequently, the visual ad of your firm, 
+
+thus helping to provide a breakthrough to your firm’s fame.<br/>
+             </div>
+         </div>
+     </div>  <!-- Sponsor -->
+
+
+ 	<div class="back2"></div>
+  <div class="back2_support"></div>
+
+
+<div class="butterfly" id="butterfly1"></div>
+<div class="butterfly" id="butterfly2"></div>
+<div class="butterfly" id="butterfly3"></div>
+<div class="butterfly" id="butterfly4"></div>
+<div class="butterfly" id="butterfly5"></div>
+
+
+ 	<div class="content_1">
+ 		Experience
+ 	</div>
+  <div class="canvas">
+      <div class="square"></div>
+      <div class="ball"></div>
+  </div>
+  <div class="words">
+        <div class="the"><div class="line1"></div>  <span class="thespan">The</span> <div class="line1"></div> </div>
+        <div class="butterfly_word">PEACOCK</div>
+        <div class="sting"><div class="line1" id="line2"></div> Peck  <div class="line1" id="line3"></div>
+  </div>
+</div>
+     
+     
+<div class="explode"></div>
+     <div class="widther"></div>
+<div class="helicopter"></div>
+        <div class="superb_holder">
+            <div class="superb" id="superb1"><div class="superb_inner">DJ Smokey Girl<br/><h2>19 March</h2></div></div>
+                <div class="superb" id="superb2"><div class="superb_inner">Choreo Night<br/><h2>20 March</h2></div></div>
+                <div class="superb" id="superb3"><div class="superb_inner">Pro Show - Lagori<br/><h2>21 March</h2></div></div>
+            <button class="extra_superb amaze_spotlight2">+ 3 more</button>
+        </div>
+     
+            
+        
+     <div class="events_content">
+        <div class="events_title">Oh Yeah! our <span style="font-size:60px;">superb events</span></div>
+         
+     </div>
+     
+<div class="launch1"></div>
+     <div class="rocket"></div>
+     <div class="main_butterfly"></div>
+<div class="city">
+</div>
+     
+     <div class="aeroplane" id="aero1"></div>
+     <div class="aeroplane" id="aero2"></div>
+     <div class="explode2"></div>
+     <div class="just_events" style="font-size:30px;"><div class="events_title">3 days, 40+ <span style="font-size:60px;"> events</span><br/>3 amazing nights<br/>19,20,21 March 2015</div>
+     
+     <button class="just_button event_caller">Explore 'em</button>
+     </div>
+     
+       
+     <div class="cover_screen1"></div>
+     <div class="cover_screen2"></div>
+     <div class="main_logo2"><div><img src="images/logo.png" style="width:100%;"></div></div>
+     
+     <div class="last_button_holder">
+            <button class="last_button amaze_contact2">Meet us</button> 
+         <button class="last_button amaze_sponsor2">Sponsors</button> 
+         <button class="last_button amaze_about2">About</button> 
+         <button class="last_button amaze_spotlight2">Superb Events</button> 
+         <button class="last_button event_caller">Events</button> 
+         <button class="last_button amaze_gallery2">Gallery</button> 
+         <a href="https://www.facebook.com/sanskritimace" target="_blank"><button class="last_button" style="color:#FFF; background:#425F9C;">Facebook</button> </a>
+     </div>
+     
+    <div class="giframe"><iframe
+      width="600"
+      height="400"
+      style="margin:10px;"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBGSehktYm9mUbPrE6n21Gh67L_U-LPc24
+        &q=mace+kothamangalam">
+    </iframe>
+    </div>
+     
+     <footer class="footer">
+         <span class="icon-arrow-up2 arrowup"></span><br/><br/>
+         In God We Trust<br/>
+     Crafted by <a href="http://princeraju.com" target="_blank" class="linked">Prince Raju</a></footer>
+
+
+		    
+<script type="text/javascript" src="js/main1.js"></script>
+
+ <script language="javascript" type="text/javascript">
+  $(window).load(function() {
+    $('.loaderhold').hide();
+	window.scrollTo(0,0);
+  });
+</script>
+  </body>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60358056-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  
+
+</html>
